@@ -18,11 +18,11 @@ func RegesterUser(id string, name string, location string, device *Device) *User
 	}
 }
 
-func (u *User) getLocation() string {
+func (u *User) GetLocation() string {
 	return u.location
 }
 
-func (u *User) getDevice() *Device {
+func (u *User) GetDevice() *Device {
 	return u.device
 }
 
